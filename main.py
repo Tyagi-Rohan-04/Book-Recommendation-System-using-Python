@@ -10,4 +10,11 @@ root.title("Book Recommendation System")
 root.geometry("1250x700")
 root. config(bg="#111119")
 
+#############################################################################################
+
+# icon
+icon_image = PhotoImage(file="Images/icon.png")
+root.iconphoto(False, icon_image)
+#############################################################################################
+
 root.mainloop()
